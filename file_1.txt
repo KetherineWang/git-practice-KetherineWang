@@ -1,1 +1,2 @@
 This is my first file.
+This file is used to practice merging with new_features.txt in the features branch.
