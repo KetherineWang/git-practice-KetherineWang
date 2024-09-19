@@ -1,0 +1,21 @@
+5c919f6 Resolve merge conflict by combining both changes
+df5991a Replace content in new_features.txt in the features branch
+dbf3f2a Change content in new_features.txt in the main branch
+0428a24 Merge file_1.txt with new_features.txt in the features branch
+30bf63a Add more content to file_1.txt
+b37b0ce Add content to new_features.txt
+60e3794 add empty file
+1d7eef5 Remove old api-keys.txt committed before .gitignore
+e7b09d1 Rename Api-key.txt to api-keys.txt in .gitignore
+51a77bd Add title and description to Readme.md
+46785f6 change file name to file_3.txt
+f380ef2 Add content to file_2.txt
+ccf9477 Add content to file_1.txt
+a871826 create new files
+0bebef8 change file names
+c81efbe Merge pull request #1 from LucasW-BYU/feature-LucasW-BYU
+046cd41 fork-new-file.txt
+59628f9 Update gitignore files
+015fbb1 Add gitignore
+2740fad Add file1.txt
+b269ec1 Add file1.txt

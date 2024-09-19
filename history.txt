@@ -1,0 +1,202 @@
+    2  git clone "https://github.com/SamLeeBYU/SeoulBikeData"
+  121  git --version
+  122  git config --global user.name "Hongting Wang"
+  123  git congif --global user.email hongting@byu.edu
+  124  git config --global user.email hongting@byu.edu
+  125  git config --global init.defaultBranch main
+  126  git status
+  127  git config --list
+  130  cd git-practice
+  131  mkdir git-practice
+  132  cd git-practice
+  136  cd git-practice
+  137  git status
+  138  git init
+  139  git status
+  144  mkdir git-practice-KetherineWang
+  145  cd git-practice-KetherineWang
+  146  git status
+  147  git init
+  151  git config --list
+  152  git branch
+  155  cd git-practice-KetherineWang
+  158  git status
+  160  git status
+  161  git add file1.txt
+  162  git status
+  163  git commit -m 'Add file1.txt'
+  164  git status
+  165  git add .
+  166  git status
+  168  git commit -m 'Add file1.txt'
+  169  git status
+  170  git log
+  171  touch .gitignore
+  172  git add .
+  173  git commit -m 'Add gitignore'
+  175  git add .
+  176  git commit -m "Update gitignore files'
+  178  git add .
+  183  cd git-practice-KetherineWang
+  186  cd git-practice-KetherineWang
+  192  cd git-practice-KetherineWang
+  193  git remote -v
+  196  git add .
+  197  git commit -m 'Update gitignore files'
+  199  git status
+  200  git remote add origin git@github.com:KetherineWang/git-practice-KetherineWang.git
+  201  git remote -u origin main
+  202  git push -u origin main
+  208  git remote -v
+  209  git push -u origin main
+  210  git config --global
+  212  git config --list
+  213  git config --global --list
+  214  git config --local --list
+  216  cd "STAT 386 - Data Science Process"/git-practice-KetherineWang
+  217  git config --local --list
+  219  git log
+  222  git statu
+  223  git status
+  228  git status
+  229  git log
+  230  git add .
+  231  git commit -am "Add file2.txt (correcting preview commit)"
+  232  git push
+  233  git push
+  234  git pull
+  236  git log
+  237  git push
+  238  git log
+  239  git add .
+  240  git commit -am "Add file2.txt (correcting commit 2740fad046999143585764b631ae0d983301eb80)"
+  241  git push
+  242  git log
+  243  git rebase -i HEAD~5
+  244  git rebase -i HEAD~4
+  245  git rebase -i HEAD~4
+  246  git rebase -i HEAD~4
+  247  rm -fr ".git/rebase-merge"
+  248  git rebase -i HEAD~4
+  249  git commit --amend
+  250  git log
+  251  git cherry-pick --abort
+  252  git commit --amend
+  253  git log
+  254  git reflog
+  255  git rebase --abort
+  256  git log
+  260  cd git-practice-KetherineWang
+  261  git status
+  262  git checkout main
+  263  git pull
+  264  git log
+  265  git rebase -i HEAD~3
+  266  git log
+  267  git pull
+  268  git lo
+  269  git log
+  273  git status
+  274  git switch feature-KetherineWang
+  276  cd git-practic-lucas/
+  277  git status
+  278  git checkout main
+  279  git status
+  280  git switch feature-KetherineWang
+  282  cd git-practice-KetherineWang/
+  288  git add .
+  289  git commit -am "change file names"
+  290  git push
+  292  git add .
+  293  git add .
+  294  git commit -am "create new files"
+  295  git push
+  298  git status
+  299  git add file_1.txt
+  300  git commit -m "Add content to file_1.txt"
+  301  git push
+  302  git status
+  303  git log
+  304  git add file_2.txt
+  305  git commit -m "Add content to file_2.txt"
+  306  git push
+  307  git status
+  308  git log
+  311  git add .
+  312  git add .
+  313  git commit -am "change file name to file_3.txt"
+  314  git push
+  315  git push
+  317  git log
+  318  git log
+  319  git log
+  327  cd git-practice-KetherineWang/
+  330  echo "# git-practice-KetherineWang" >> Readme.md
+  332  git add .
+  333  git commit -m "Add title and description to Readme.md"
+  334  git status
+  335  git push
+  336  git status
+  337  git add .
+  338  git add .
+  339  git commit -m "Rename Api-key.txt to api-keys.txt in .gitignore"
+  340  git push
+  344  git add .
+  345  git add .
+  346  git commit -m "Remove old api-keys.txt committed before .gitignore"
+  347  git push
+  349  git status
+  350  git add .
+  351  git add .
+  352  git commit -m "Recreate api-keys.txt to be ignored by .gitignore"
+  353  git push
+  355  git branch
+  357  cd git-practic-lucas/
+  358  git branch
+  360  cd git-practice-KetherineWang/
+  361  git branch features
+  362  git branch
+  363  git switch features
+  364  git log
+  366  git add .
+  367  git commit -m "add empty file"
+  369  git add .
+  370  git commit -m "Add content to new_features.txt"
+  371  git switch main
+  373  git switch features
+  375  git switch main
+  377  git add .
+  378  git commit -m "Add more content to file_1.txt"
+  379  git merge features
+  380  git log
+  383  git add .
+  384  git commit -m "Change content in new_features.txt in the main branch"
+  385  git switch features
+  388  git add .
+  389  git commit -m "Replace content in new_features.txt in the features branch"
+  390  git switch main
+  391  git merge features
+  393  git add .
+  394  git commit -m "Resolve merge conflict by combining both changes"
+  395  git push
+  396  git switch features
+  399  git switch main
+  403  git switch features
+  405  git branch
+  406  git branch -d features
+  407  git switch main
+  408  git branch
+  409  git branch -d features
+  410  git branch
+  411  git add .
+  412  git commit -m "Delete features branch"
+  413  git push
+  418  git status
+  420  cd git-practic-lucas/
+  421  git status
+  422  git switch main
+  423  git status
+  425  git switch feature-KetherineWang
+  427  cd git-practice-KetherineWang
+  428  git log --oneline > gitlog.txt
+  429  history | grep git > history.txt
